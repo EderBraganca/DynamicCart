@@ -1,8 +1,24 @@
-# React + Vite
+Dynamic Shopping Cart Using React & Redux
+/**
+ * This code is part of a personal project.
+ * It serves as a README file for the project, providing an overview and instructions.
+ * 
+ * Project Name: Dynamic Shopping Cart
+ * Author: Eder Bragança
+ * 
+ * Descriction:
+ * This project is a shopping cart application developed using React and Redux. The application allows you to add, remove, and update the quantity of items in the shopping cart, as well as navigate between the products and cart pages.
+ *
+ * Technologies:
+ * - Java Script 
+ * - React
+ * - Redux
+ * - Web (HTML, CSS)
+ * - React Router Dom
+ * 
+ * 
+ * Contact:
+ * ederbrape@gmail.com
+ */
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
