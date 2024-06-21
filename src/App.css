@@ -1,0 +1,89 @@
+.navSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: white;
+}
+
+.navButtons{
+    border-radius: 10%;
+    height: 5vh;
+    color: white;
+    background-color: black;
+}
+
+.totalTitle{
+    color: black;
+    margin-right: 10px;
+}
+
+.title{
+    align-self: center;
+}
+
+.incrementButtons{
+    display: flex;
+    justify-content: center;
+}
+
+.itemCard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    margin: 10px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #f0f0f0;
+    box-shadow: 5px 5px 5px #888888;
+}
+
+.itemCard img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.itemCard h3{
+    margin: 10px 0;
+}
+
+.itemCard button{
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+.itemCard button:hover{
+    background-color: #e0e0e0;
+}
+
+.itemCard button:active{
+    background-color: #d0d0d0;
+}
+
+body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+
+#cart{
+    position: fixed;
+    right: 0;
+    top: 0;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border: none;
+}
